@@ -1,5 +1,8 @@
 ﻿
+
 gps forex* | kill
+git fetch origin --prune
+git merge origin/master
 
 $env:FOREX_ENV="Prod"
 $env:FOREX_ENVIRONMENT="Prod"
