@@ -1,18 +1,22 @@
 ﻿Param(
     [string]$username = "",
     [string]$password = "",
-    [string]$branch = "002"    
+    [string]$branch = "002",
+    [string]$terminal = "002-001"  
 )
 
 gps forex* | kill
 git fetch origin --prune
 git merge origin/master
 
+git lfs fetch
+git lfs checkout
+
 $env:FOREX_ENV="Prod"
 $env:FOREX_ENVIRONMENT="Prod"
 $env:FOREX_Branch=$branch
-$env:FOREX_Terminal="002-001"
+$env:FOREX_Terminal=$terminal
 $env:FOREX_BaseUrl="https://web-forex.azurewebsites.net/"
 
 
-.\forex\forex.exe /username:$username /password:$password
+.\forex\forex.exe /username:$username /password:$password 
