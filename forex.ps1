@@ -2,15 +2,21 @@
     [string]$username = "",
     [string]$password = "",
     [string]$branch = "002",
-    [string]$terminal = "002-001"  
+    [string]$terminal = "002-001",
+    [switch]$skipUpdate
 )
 
 gps forex* | kill
-git fetch origin --prune
-git merge origin/master
 
-git lfs fetch
-git lfs checkout
+if($skipUpdate.IsPresent -eq $false){
+
+    git fetch origin --prune
+    git merge origin/master
+
+    git lfs fetch
+    git lfs checkout
+}
+
 
 $env:FOREX_ENV="Prod"
 $env:FOREX_ENVIRONMENT="Prod"
