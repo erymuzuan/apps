@@ -1,0 +1,305 @@
+{
+  "HasError": false,
+  "Exception": null,
+  "CurrentPage": 1,
+  "PageSize": 40,
+  "Query": null,
+  "TotalRows": 4,
+  "NextSkipToken": null,
+  "ItemCollection": [
+    {
+      "CurrencyId": 1,
+      "FlagUrl": "th",
+      "DisplayOrder": 0,
+      "MaxDiscount": null,
+      "Name": "Thai Baht",
+      "Code": "THB",
+      "Unit": 1,
+      "DecimalPoint": 0,
+      "Country": "Thailand",
+      "Symbol": "\u0E3F",
+      "MinorUnit": 0.01,
+      "MinorUnitSymbol": "s",
+      "MinorUnitSymbolName": "satang",
+      "AcceptChange": false,
+      "Denominations": [
+        {
+          "Code": null,
+          "Count": 0,
+          "NullableCount": null,
+          "Value": 1000.0,
+          "Type": "Paper",
+          "Total": 0.0,
+          "WebId": null
+        },
+        {
+          "Code": null,
+          "Count": 0,
+          "NullableCount": null,
+          "Value": 500.0,
+          "Type": "Paper",
+          "Total": 0.0,
+          "WebId": null
+        },
+        {
+          "Code": null,
+          "Count": 0,
+          "NullableCount": null,
+          "Value": 100.0,
+          "Type": "Paper",
+          "Total": 0.0,
+          "WebId": null
+        },
+        {
+          "Code": null,
+          "Count": 0,
+          "NullableCount": null,
+          "Value": 50.0,
+          "Type": "Paper",
+          "Total": 0.0,
+          "WebId": null
+        },
+        {
+          "Code": null,
+          "Count": 0,
+          "NullableCount": null,
+          "Value": 20.0,
+          "Type": "Paper",
+          "Total": 0.0,
+          "WebId": null
+        },
+        {
+          "Code": null,
+          "Count": 0,
+          "NullableCount": null,
+          "Value": 10.0,
+          "Type": "Coin",
+          "Total": 0.0,
+          "WebId": null
+        },
+        {
+          "Code": null,
+          "Count": 0,
+          "NullableCount": null,
+          "Value": 5.0,
+          "Type": "Coin",
+          "Total": 0.0,
+          "WebId": null
+        },
+        {
+          "Code": null,
+          "Count": 0,
+          "NullableCount": null,
+          "Value": 2.0,
+          "Type": "Coin",
+          "Total": 0.0,
+          "WebId": null
+        },
+        {
+          "Code": null,
+          "Count": 0,
+          "NullableCount": null,
+          "Value": 1.0,
+          "Type": "Coin",
+          "Total": 0.0,
+          "WebId": null
+        }
+      ],
+      "WebId": "c97283d6-12fc-4d27-9aba-cf9c943d504f",
+      "_type": "Currency",
+      "_env": "Prod"
+    },
+    {
+      "CurrencyId": 2,
+      "FlagUrl": "my",
+      "DisplayOrder": 0,
+      "MaxDiscount": null,
+      "Name": "Malaysian Ringgit",
+      "Code": "MYR",
+      "Unit": 1,
+      "DecimalPoint": 2,
+      "Country": "Malaysia",
+      "Symbol": "RM",
+      "MinorUnit": 0.01,
+      "MinorUnitSymbol": "c",
+      "MinorUnitSymbolName": "sen",
+      "AcceptChange": false,
+      "Denominations": [
+        {
+          "Code": null,
+          "Count": 0,
+          "NullableCount": null,
+          "Value": 100,
+          "Type": "Paper",
+          "Total": 0,
+          "WebId": null
+        },
+        {
+          "Code": null,
+          "Count": 0,
+          "NullableCount": null,
+          "Value": 50,
+          "Type": "Paper",
+          "Total": 0,
+          "WebId": null
+        },
+        {
+          "Code": null,
+          "Count": 0,
+          "NullableCount": null,
+          "Value": 20,
+          "Type": "Paper",
+          "Total": 0,
+          "WebId": null
+        },
+        {
+          "Code": null,
+          "Count": 0,
+          "NullableCount": null,
+          "Value": 10,
+          "Type": "Paper",
+          "Total": 0,
+          "WebId": null
+        },
+        {
+          "Code": null,
+          "Count": 0,
+          "NullableCount": null,
+          "Value": 5,
+          "Type": "Plastic",
+          "Total": 0,
+          "WebId": null
+        },
+        {
+          "Code": null,
+          "Count": 0,
+          "NullableCount": null,
+          "Value": 1,
+          "Type": "Plastic",
+          "Total": 0,
+          "WebId": null
+        },
+        {
+          "Code": null,
+          "Count": 0,
+          "NullableCount": null,
+          "Value": 0.5,
+          "Type": "Coin",
+          "Total": 0.0,
+          "WebId": null
+        },
+        {
+          "Code": null,
+          "Count": 0,
+          "NullableCount": null,
+          "Value": 0.2,
+          "Type": "Coin",
+          "Total": 0.0,
+          "WebId": null
+        },
+        {
+          "Code": null,
+          "Count": 0,
+          "NullableCount": null,
+          "Value": 0.1,
+          "Type": "Coin",
+          "Total": 0.0,
+          "WebId": null
+        }
+      ],
+      "WebId": "d0329149-9443-4f2b-9b09-3548a703f766",
+      "_type": "Currency",
+      "_env": "Prod"
+    },
+    {
+      "CurrencyId": 3,
+      "FlagUrl": "sa",
+      "DisplayOrder": 0,
+      "MaxDiscount": null,
+      "Name": "Saudi Rial",
+      "Code": "SAR",
+      "Unit": 1,
+      "DecimalPoint": 0,
+      "Country": "Saudi Arabia",
+      "Symbol": "\uFDFC",
+      "MinorUnit": 0.01,
+      "MinorUnitSymbol": "c",
+      "MinorUnitSymbolName": "c",
+      "AcceptChange": false,
+      "Denominations": [
+        {
+          "Code": null,
+          "Count": 0,
+          "NullableCount": null,
+          "Value": 100.0,
+          "Type": "Paper",
+          "Total": 0.0,
+          "WebId": null
+        },
+        {
+          "Code": null,
+          "Count": 0,
+          "NullableCount": null,
+          "Value": 50.0,
+          "Type": "Paper",
+          "Total": 0.0,
+          "WebId": null
+        }
+      ],
+      "WebId": "6e4f346b-83ce-47e1-a044-06d3d62c36c9",
+      "_type": "Currency",
+      "_env": "Prod"
+    },
+    {
+      "CurrencyId": 4,
+      "FlagUrl": "sg",
+      "DisplayOrder": 0,
+      "MaxDiscount": null,
+      "Name": "Singaporean Dollar",
+      "Code": "SGD",
+      "Unit": 1,
+      "DecimalPoint": 0,
+      "Country": "Singapore",
+      "Symbol": "S$",
+      "MinorUnit": 0.01,
+      "MinorUnitSymbol": "c",
+      "MinorUnitSymbolName": "cent",
+      "AcceptChange": false,
+      "Denominations": [
+        {
+          "Code": null,
+          "Count": 0,
+          "NullableCount": null,
+          "Value": 100,
+          "Type": "Paper",
+          "Total": 0,
+          "WebId": null
+        },
+        {
+          "Code": null,
+          "Count": 0,
+          "NullableCount": null,
+          "Value": 50,
+          "Type": "Paper",
+          "Total": 0,
+          "WebId": null
+        },
+        {
+          "Code": null,
+          "Count": 0,
+          "NullableCount": null,
+          "Value": 20,
+          "Type": "Paper",
+          "Total": 0,
+          "WebId": null
+        }
+      ],
+      "WebId": "6e8e12bb-bce5-4a92-b0d1-22de867b1839",
+      "_type": "Currency",
+      "_env": "Prod"
+    }
+  ],
+  "TotalPages": 1,
+  "HasNextPage": false,
+  "HasPreviousPage": false
+}

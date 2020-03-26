@@ -1,0 +1,47 @@
+{
+  "HasError": false,
+  "Exception": null,
+  "CurrentPage": 1,
+  "PageSize": 40,
+  "Query": null,
+  "TotalRows": 1,
+  "NextSkipToken": "$filter=No eq \u0027002\u0027\u0026$skip=40\u0026$top=40",
+  "ItemCollection": [
+    {
+      "BranchId": 2,
+      "No": "002",
+      "Name": "Adam Money Services Sungai Golok",
+      "ShortName": "Golok",
+      "Type": "PhysicalStore",
+      "OutletAddress": {
+        "Line1": "6 \u0E16.\u0E40\u0E08\u0E23\u0E34\u0E0D\u0E40\u0E02\u0E15 \u0E15.\u0E2A\u0E38\u0E44\u0E2B\u0E07\u0E42\u0E01-\u0E25\u0E01 \u0E2D.\u0E2A\u0E38\u0E44\u0E2B\u0E07\u0E42\u0E01-\u0E25\u0E01 \u0E08.\u0E19\u0E23\u0E32\u0E18\u0E34\u0E27\u0E32\u0E2A",
+        "Line2": "",
+        "State": "",
+        "Country": "",
+        "City": "Sungai Kolok",
+        "Postcode": "96120"
+      },
+      "Telephone": "073-530557",
+      "Email": "ads@bukitbunga.com",
+      "Message": "\n",
+      "Location": {
+        "Lng": 0,
+        "Lat": 0
+      },
+      "OpeningHours": null,
+      "ClosingHours": null,
+      "BaseCurrency": "THB",
+      "KycValue": 50000,
+      "FacebookPage": "Adam Money Service Co. Ltd.",
+      "Instagram": null,
+      "Icon": "payment payment-worldpay-dark",
+      "TimeZone": "SE Asia Standard Time",
+      "WebId": "89397b52-90f7-4c80-8487-fc5a7a8bd4fe",
+      "_type": "Branch",
+      "_env": "Prod"
+    }
+  ],
+  "TotalPages": 1,
+  "HasNextPage": false,
+  "HasPreviousPage": false
+}
