@@ -1,0 +1,10 @@
+{
+  "PrinterName": "ADAM SAAS",
+  "PrinterId": "726242",
+  "ReceiptFontSize": 0,
+  "ReceiptLeftMargin": 0,
+  "ReceiptTopMargin": 0,
+  "ReceiptRightMargin": 0,
+  "ReceiptBottomMargin": 0,
+  "ServerUrl": "https://localhost:5001"
+}
