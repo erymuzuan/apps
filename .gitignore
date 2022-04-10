@@ -1,3 +1,6 @@
 *.aws
 data/
 notes/
+logs/*.log
+forex.printer/settings-*.json
+settings-*.json
