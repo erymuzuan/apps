@@ -1,15 +1,12 @@
 ﻿Param(
-    [string]$username = "",
-    [string]$password = "",
-    [string]$branch = "002",
-    [string]$terminal = "002-001",
+    [string]$Printer,
     [switch]$skipUpdate
 )
 
-gps forex* | kill
+Get-Process wpf.receipt.printer.exe.* | Stop-Process
 
 if($skipUpdate.IsPresent -eq $false){
-
+    git reset --hard
     git fetch origin --prune
     git merge origin/master
 
@@ -18,11 +15,10 @@ if($skipUpdate.IsPresent -eq $false){
 }
 
 
-$env:FOREX_ENV="Prod"
-$env:FOREX_ENVIRONMENT="Prod"
-$env:FOREX_Branch=$branch
-$env:FOREX_Terminal=$terminal
-$env:FOREX_BaseUrl="https://web-forex.azurewebsites.net/"
+$env:FOREX_ENV="ForexProd"
+$env:FOREX_ENVIRONMENT="ForexProd"
+$env:FOREX_PRINTER=$Printer
+$env:FOREX_BaseUrl="https://add.adam.co.th/"
 
 
-.\forex.printer\wpf.receipt.printer.exe
+.\forex.printer\wpf.receipt.printer.exe $Printer

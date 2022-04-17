@@ -4,3 +4,4 @@ notes/
 logs/*.log
 forex.printer/settings-*.json
 settings-*.json
+printer-settings-*.json
