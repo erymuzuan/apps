@@ -15,6 +15,32 @@ git merge origin/master
 
 ```
 
+## RELEASE NOTE : forex.printer.20230629
+
+### Json setting for NoRefundFontWeight
+Valid values are
+* Black
+* Bold" 
+*        "Normal" 
+*       "Heavy" 
+*        "Light"
+*        "Medium"
+*        "Regular" 
+*        "Thin" 
+*        "DemiBold" 
+*        "ExtraBlack" 
+*        "ExtraBold" 
+*        "ExtraLight"
+*        "SemiBold" 
+*        "UltraBlack" 
+*        "UltraBold" 
+*        "UltraLight" 
+
+
+### Rate display format
+All rates would be displayed with decimal point set in currency option
+
+
 ## RELEASE NOTE : forex.printer.20230624
 
 ### Json setting file could be located anywhener
