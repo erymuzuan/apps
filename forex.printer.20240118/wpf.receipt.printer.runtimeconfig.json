@@ -12,7 +12,12 @@
       }
     ],
     "configProperties": {
+<<<<<<< HEAD
       "System.Reflection.Metadata.MetadataUpdater.IsSupported": false
+=======
+      "System.Reflection.Metadata.MetadataUpdater.IsSupported": false,
+      "System.Runtime.Serialization.EnableUnsafeBinaryFormatterSerialization": true
+>>>>>>> 9b29f6ef4946136a4042a5bb129f45a61f79015a
     }
   }
 }
